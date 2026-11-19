@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ebay-listing-data"
+version = "0.1.0"
+description = "Fixture-first parser and exporter for public eBay listing-search data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = ["beautifulsoup4>=4.12,<5"]
+
+[project.scripts]
+ebay-listing-data = "ebay_listing_data.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

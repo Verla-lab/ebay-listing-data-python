@@ -1,0 +1,24 @@
+{
+  "owner": "Verla-lab",
+  "repository": "ebay-listing-data-python",
+  "title": "How to Collect eBay Listing Data with Python and Export It to CSV",
+  "description": "Fixture-first Python scraper for public eBay listing-search fields with JSON/CSV export, tests, and explicit stop states.",
+  "visibility": "public",
+  "default_branch": "main",
+  "public_url": "https://github.com/Verla-lab/ebay-listing-data-python",
+  "published_at": "2026-11-19",
+  "content_commit": null,
+  "topics": [
+    "ebay",
+    "python",
+    "web-scraping",
+    "data-extraction",
+    "csv",
+    "json",
+    "beautifulsoup",
+    "public-data"
+  ],
+  "affiliation_claim": false,
+  "live_request_performed": false,
+  "temporary_credential": "repo-scoped-deploy-key-pending-revocation"
+}
