@@ -17,15 +17,15 @@
   "secret_scan": "pass",
   "prohibited_phrase_scan": "pass",
   "responsible_use": "pass",
-  "publication_status": "publishing",
+  "publication_status": "published",
   "public_url": "https://github.com/Verla-lab/ebay-listing-data-python",
   "owner": "Verla-lab",
   "default_branch": "main",
-  "content_commit": null,
-  "remote_tree": "not-published",
+  "content_commit": "c53cc8d8e3b52a86c7abc6d5a2a801b0f1f3f1d0",
+  "remote_tree": "verified",
   "actions": {
-    "status": "not-run",
-    "runs": []
+    "status": "success",
+    "runs": [44471110616]
   },
   "temporary_credential_cleanup": null
 }

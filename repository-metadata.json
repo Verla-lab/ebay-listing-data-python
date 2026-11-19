@@ -7,7 +7,7 @@
   "default_branch": "main",
   "public_url": "https://github.com/Verla-lab/ebay-listing-data-python",
   "published_at": "2026-11-19",
-  "content_commit": null,
+  "content_commit": "c53cc8d8e3b52a86c7abc6d5a2a801b0f1f3f1d0",
   "topics": [
     "ebay",
     "python",
@@ -20,5 +20,5 @@
   ],
   "affiliation_claim": false,
   "live_request_performed": false,
-  "temporary_credential": "repo-scoped-deploy-key-pending-revocation"
+  "temporary_credential": "repo-scoped-deploy-key-pending-revocation-after-final-push"
 }
