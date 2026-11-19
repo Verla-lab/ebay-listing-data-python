@@ -20,5 +20,5 @@
   ],
   "affiliation_claim": false,
   "live_request_performed": false,
-  "temporary_credential": "repo-scoped-deploy-key-pending-revocation-after-final-push"
+  "temporary_credential": "repo-scoped-deploy-key-revoked-and-deleted"
 }
