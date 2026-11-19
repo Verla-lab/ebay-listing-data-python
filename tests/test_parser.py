@@ -8,7 +8,7 @@ FIXTURES = Path(__file__).parents[1] / "fixtures"
 
 class ParserTests(unittest.TestCase):
     def test_parses_two_listings(self):
-        html = (FIXTURES / "eBay-search.html").read_text(encoding="utf-8")
+        html = (FIXTURES / "ebay-search.html").read_text(encoding="utf-8")
         listings = parse_listings(html)
         self.assertEqual(len(listings), 2)
         self.assertEqual(listings[0].item_id, "DEMO-1001")
@@ -17,7 +17,7 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(listings[0].seller, "demo_store (99.8%)")
 
     def test_normalizes_relative_url(self):
-        html = (FIXTURES / "eBay-search.html").read_text(encoding="utf-8")
+        html = (FIXTURES / "ebay-search.html").read_text(encoding="utf-8")
         listing = parse_listings(html)[0]
         self.assertEqual(listing.url, "https://www.ebay.com/itm/DEMO-1001")
 
