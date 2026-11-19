@@ -25,7 +25,12 @@
   "remote_tree": "verified",
   "actions": {
     "status": "success",
-    "runs": [44471110616]
+    "runs": [44471110616, 44471225889]
   },
-  "temporary_credential_cleanup": null
+  "temporary_credential_cleanup": {
+    "github_deploy_key": "revoked",
+    "revocation_verified": "push-denied-publickey",
+    "local_private_key": "deleted",
+    "local_public_key": "deleted"
+  }
 }
